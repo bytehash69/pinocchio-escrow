@@ -3,6 +3,9 @@ use pinocchio::{ProgramResult, account_info::AccountInfo, entrypoint, program_er
 pub mod instructions;
 pub use instructions::*;
 
+pub mod state;
+pub use state::*;
+
 entrypoint!(process_instruction);
 
 // 22222222222222222222222222222222222222222222
